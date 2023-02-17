@@ -1,5 +1,10 @@
 package main
 
+import (
+  "go-ether/blocklistener"
+)
+
 func main() {
-  _ = BlockListener()
+  blocklistener.BlockListener()
+
 }
